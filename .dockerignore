@@ -1,0 +1,15 @@
+# Ignore node_modules directory
+node_modules
+
+# Ignore any npm debug logs
+npm-debug.log
+
+# Ignore the dist folder (if you don't want it copied into the Docker image)
+dist/
+
+# Ignore any files related to your editor/IDE
+.vscode/
+.idea/
+
+# Ignore local environment files (e.g., .env files)
+.env
